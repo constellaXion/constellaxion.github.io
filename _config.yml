@@ -7,6 +7,6 @@ logo: "/assets/images/logo_full_light_bg.png"
 url: https://constellaxion.ai
 
 aux_links:
-  Constellaxion-CLI: https://github.com/constellaXion/constellaXion-cli
-  Constellaxion-Images: https://github.com/constellaXion/constellaXion-images
-  Constellaxion-Utils: https://github.com/constellaXion/constellaXion-utils
+  CLI Tool: https://github.com/constellaXion/constellaXion-cli
+  Docker Images: https://github.com/constellaXion/constellaXion-images
+  Utils: https://github.com/constellaXion/constellaXion-utils
