@@ -2,11 +2,11 @@ title: Constellaxion
 description: A CLI tool for deploying and managing LLM models to the cloud
 theme: just-the-docs
 
-logo: assets/images/logo_full_light_bg.png
+logo: "/assets/images/logo_full_light_bg.png"
 
 url: https://constellaxion.ai
 
 aux_links:
-  Constellaxion: https://github.com/constellaXion/constellaXion-cli
+  Constellaxion-CLI: https://github.com/constellaXion/constellaXion-cli
   Constellaxion-Images: https://github.com/constellaXion/constellaXion-images
   Constellaxion-Utils: https://github.com/constellaXion/constellaXion-utils
