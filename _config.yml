@@ -1,8 +1,12 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Constellaxion
+description: A CLI tool for deploying and managing LLM models to the cloud
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+logo: assets/images/logo_full_light_bg.png
+
+url: https://constellaxion.ai
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Constellaxion: https://github.com/constellaXion/constellaXion-cli
+  Constellaxion-Images: https://github.com/constellaXion/constellaXion-images
+  Constellaxion-Utils: https://github.com/constellaXion/constellaXion-utils
