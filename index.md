@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Getting Started
 layout: home
 ---
 
