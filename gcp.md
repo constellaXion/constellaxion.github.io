@@ -65,5 +65,5 @@ Once GCP is set up:
 2. Run `constellaxion init`
 3. You’re ready to deploy, fine-tune, and prompt your models 🚀
 
-[👉 Back to Get Started](Get Started)
+[👉 Back to Get Started](https://constellaxion.github.io/index.html)
 [👉 Model config reference](https://constellaxion.github.io/model-config-reference)

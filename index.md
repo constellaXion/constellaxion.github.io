@@ -27,7 +27,7 @@ Constellaxion is designed to be cloud-agnostic, but each environment has its own
 To run on Google Cloud Platform (GCP):
 - Your user account must have the roles/resourcemanager.projectIamAdmin role
 - Enable the Vertex AI API
-- [Service account setup details →](https://constellaxion.github.io/service-account.html)
+- [Working with GCP →](https://constellaxion.github.io/gcp.html)
 
 {: .note }
 > 💡 AWS support is coming soon using the same YAML-based framework.
