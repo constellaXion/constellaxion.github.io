@@ -1,5 +1,5 @@
 ---
-title: Models
+title: Supported Models
 layout: default
 ---
 

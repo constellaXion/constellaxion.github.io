@@ -10,10 +10,9 @@ Constellaxion is a CLI tool for deploying and fine-tuning open-source models on 
 - [Installation](#-installation)
 - [Prerequisites](#-prerequisites)
 - [Initializing a Project](#-initializing-a-project)
-- [Deploying Models](#-deploying-models)
-- [Fine-Tuning](#-fine-tuning)
+- [Deploying a Foundation Model](#-deploying-a-foundation-model)
+- [Fine-Tuning a Model](#-fine-tuning-a-model)
 - [Prompting a Model](#-prompting-a-model)
-- [Supported Models](#-supported-models)
 
 ## 📦 Installation
 
