@@ -23,7 +23,7 @@ To run on Google Cloud Platform (GCP):
 - [Service account setup details →](https://constellaxion.github.io/service-account.html)
 
 {: .note }
-💡 AWS support is coming soon using the same YAML-based framework.
+AWS support is coming soon using the same YAML-based framework.
 
 
 ## 📁 Initializing a Project
