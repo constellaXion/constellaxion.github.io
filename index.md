@@ -23,7 +23,7 @@ To run on Google Cloud Platform (GCP):
 - [Service account setup details →](https://constellaxion.github.io/service-account.html)
 
 {: .note }
-AWS support is coming soon using the same YAML-based framework.
+💡 AWS support is coming soon using the same YAML-based framework.
 
 
 ## 📁 Initializing a Project
@@ -44,8 +44,8 @@ constellaxion init
 
 This generates a job.json file based on your model.yaml.
 
-→ [Config file reference →](https://constellaxion.github.io/config-file-reference.html)
-→ [Job.json explained →](https://constellaxion.github.io/job-json-explained.html)
+[Config file reference →](https://constellaxion.github.io/config-file-reference.html)
+[Job.json explained →](https://constellaxion.github.io/job-json-explained.html)
 
 
 ## 🚀 Deploying a Foundation Model
@@ -55,17 +55,17 @@ To deploy a foundation model, run:
 constellaxion model deploy
 ```
 
-### Example model.yaml:
+### Example model.yaml for foundation model deployment:
 ```yaml
 model:
   id: cxn-foundation-model
   base: "tiiuae/falcon-7b-instruct"
 deploy:
   gcp:
-    project_id: osyris-staging
+    project_id: your-project-id
     location: europe-west2
 ```
-→ [What happens under the hood →](https://constellaxion.github.io/what-happens-under-the-hood.html)
+[What happens under the hood →](https://constellaxion.github.io/what-happens-under-the-hood.html)
 
 ## 🎯 Fine-Tuning a Model
 
@@ -79,7 +79,25 @@ Then serve it with:
 ```bash
 constellaxion model serve
 ```
-→ [Fine-tuning architecture →](https://constellaxion.github.io/fine-tuning-architecture.html)
+
+### Example model.yaml for fine-tuning:
+```yaml
+model:
+  id: crypto-sentiment-v2
+  base: TinyLlama/TinyLlama-1.1B-intermediate-step-1431k-3T
+dataset:
+  train: ./train.csv
+  val: ./val.csv
+  test: ./test.csv
+training:
+  epochs: 1
+  batch_size: 16
+deploy:
+  gcp:
+    project_id: your-project-id
+    location: us-central1
+```
+[Fine-tuning architecture →](https://constellaxion.github.io/fine-tuning-architecture.html)
 
 
 ## 💬 Prompting a Model
@@ -92,10 +110,10 @@ constellaxion model prompt
 Your terminal becomes a chat window for the deployed model (defined in job.json).
 Type exit to stop.
 
-→ [How terminal chat works →](https://constellaxion.github.io/how-terminal-chat-works.html)
+[How terminal chat works →](https://constellaxion.github.io/how-terminal-chat-works.html)
 
 🧠 Supported Models
 
 We are actively expanding support for more models and cloud environments.
 
-→ [View supported models and platforms →](https://constellaxion.github.io/supported-models-and-platforms.html)
+[View supported models and platforms →](https://constellaxion.github.io/supported-models-and-platforms.html)
