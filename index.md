@@ -22,7 +22,8 @@ To run on Google Cloud Platform (GCP):
 - Enable the Vertex AI API
 - [Service account setup details →](https://constellaxion.github.io/service-account.html)
 
-AWS support is coming soon using the same YAML-based framework.
+{: .note }
+💡 AWS support is coming soon using the same YAML-based framework.
 
 
 ## 📁 Initializing a Project
