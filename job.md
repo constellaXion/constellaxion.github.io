@@ -58,8 +58,10 @@ It’s your CLI’s memory of what you’re working on — don’t edit it manua
 
 ### model
 <dl>
-	<dt>model_id:</dt> <dd>A unique label for this project or experiment.</dd>
-	<dt>base_model:</dt> <dd>The Hugging Face model ID used as the starting point for deployment or fine-tuning.</dd>
+	<dt>model_id:</dt> 
+  <dd>A unique label for this project or experiment.</dd>
+	<dt>base_model:</dt> 
+  <dd>The Hugging Face model ID used as the starting point for deployment or fine-tuning.</dd>
 </dl>
 
 ### dataset
@@ -67,8 +69,10 @@ Holds references to your dataset files, both locally and in cloud storage.
 
 Each entry (train, val, test) has:
 <dl>
-	<dt>local:</dt> <dd>The path on your local file system (usually next to model.yaml)</dd>
-	<dt>cloud:</dt> <dd>The upload path inside your GCS bucket</dd>
+	<dt>local:</dt> 
+  <dd>The path on your local file system (usually next to model.yaml)</dd>
+	<dt>cloud:</dt> 
+  <dd>The upload path inside your GCS bucket</dd>
 </dl>
 
 These paths are used during job upload and training orchestration.
@@ -77,23 +81,34 @@ These paths are used during job upload and training orchestration.
 
 This section only appears if you’re fine-tuning a model.
 <dl>
-	<dt>epochs:</dt> <dd>Number of epochs for training</dd>
-	<dt>batch_size:</dt> <dd>Batch size used in training</dd>
-	<dt>tensorboard_url (optional):</dt> <dd>A link to the TensorBoard experiment tracking your training run, generated automatically on Vertex AI if applicable.</dd>
+	<dt>epochs</dt> 
+  <dd>Number of epochs for training</dd>
+	<dt>batch_size</dt> 
+  <dd>Batch size used in training</dd>
+	<dt>tensorboard_url (optional)</dt> 
+  <dd>A link to the TensorBoard experiment tracking your training run, generated automatically on Vertex AI if applicable.</dd>
 </dl>
 
 ### deploy
 
 This section configures your cloud deployment.
 <dl>
-	<dt>provider:</dt> <dd>The cloud backend used. Currently supports gcp. (Multi-cloud support coming soon.)</dd>
-	<dt>project_id:</dt> <dd>Your GCP project identifier.</dd>
-	<dt>location:</dt> <dd>GCP region where jobs run.</dd>
-	<dt>bucket_name:</dt> <dd>Your GCS bucket for model artifacts, datasets, logs.</dd>
-	<dt>staging_dir:</dt> <dd>Temp directory where data is uploaded before processing.</dd>
-	<dt>experiments_dir:</dt> <dd>Where logs, checkpoints, and metrics are saved during training.</dd>
-	<dt>model_path:</dt> <dd>Where the final trained model will be saved in GCS.</dd>
-	<dt>service_account:</dt> <dd>The service account used to launch Vertex AI jobs. Must have sufficient IAM permissions.</dd>
+	<dt>provider</dt> 
+  <dd>The cloud backend used. Currently supports gcp. (Multi-cloud support coming soon.)</dd>
+	<dt>project_id</dt> 
+  <dd>Your GCP project identifier.</dd>
+	<dt>location</dt> 
+  <dd>GCP region where jobs run.</dd>
+	<dt>bucket_name</dt> 
+  <dd>Your GCS bucket for model artifacts, datasets, logs.</dd>
+	<dt>staging_dir</dt> 
+  <dd>Temp directory where data is uploaded before processing.</dd>
+	<dt>experiments_dir</dt> 
+  <dd>Where logs, checkpoints, and metrics are saved during training.</dd>
+	<dt>model_path</dt> 
+  <dd>Where the final trained model will be saved in GCS.</dd>
+	<dt>service_account</dt> 
+  <dd>The service account used to launch Vertex AI jobs. Must have sufficient IAM permissions.</dd>
 </dl>
 
 ## 🧠 Why job.json Matters
@@ -108,4 +123,5 @@ This section configures your cloud deployment.
 
 ## 🔗 Related Pages
 - [Get Started](https://constellaxion.github.io/index.html)
+- [Model.yaml Reference](https://constellaxion.github.io/model-config-reference)
 - [Fine-Tuning Guide](https://constellaxion.github.io/fine-tuning-guide)
