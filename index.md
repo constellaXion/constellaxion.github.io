@@ -23,7 +23,7 @@ To run on Google Cloud Platform (GCP):
 - [Service account setup details →](https://constellaxion.github.io/service-account.html)
 
 {: .note }
-💡 AWS support is coming soon using the same YAML-based framework.
+> 💡 AWS support is coming soon using the same YAML-based framework.
 
 
 ## 📁 Initializing a Project
@@ -44,8 +44,8 @@ constellaxion init
 
 This generates a job.json file based on your model.yaml.
 
-[Config file reference →](https://constellaxion.github.io/config-file-reference.html)
-[Job.json explained →](https://constellaxion.github.io/job-json-explained.html)
+- [Config file reference →](https://constellaxion.github.io/config-file-reference.html)
+- [Job.json explained →](https://constellaxion.github.io/job-json-explained.html)
 
 
 ## 🚀 Deploying a Foundation Model
