@@ -58,9 +58,9 @@ It’s your CLI’s memory of what you’re working on — don’t edit it manua
 
 ### model
 <dl>
-	<dt>model_id:</dt> 
+	<dt>model_id</dt> 
   <dd>A unique label for this project or experiment.</dd>
-	<dt>base_model:</dt> 
+	<dt>base_model</dt> 
   <dd>The Hugging Face model ID used as the starting point for deployment or fine-tuning.</dd>
 </dl>
 
@@ -69,9 +69,9 @@ Holds references to your dataset files, both locally and in cloud storage.
 
 Each entry (train, val, test) has:
 <dl>
-	<dt>local:</dt> 
+	<dt>local</dt> 
   <dd>The path on your local file system (usually next to model.yaml)</dd>
-	<dt>cloud:</dt> 
+	<dt>cloud</dt> 
   <dd>The upload path inside your GCS bucket</dd>
 </dl>
 
