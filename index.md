@@ -18,9 +18,9 @@ pip install constellaxion
 Constellaxion is designed to be cloud-agnostic, but each environment has its own setup.
 
 To run on Google Cloud Platform (GCP):
-	•	Your user account must have the roles/resourcemanager.projectIamAdmin role
-	•	Enable the Vertex AI API
-	•	[Service account setup details →](https://constellaxion.github.io/service-account.html)
+- Your user account must have the roles/resourcemanager.projectIamAdmin role
+- Enable the Vertex AI API
+- [Service account setup details →](https://constellaxion.github.io/service-account.html)
 
 AWS support is coming soon using the same YAML-based framework.
 
@@ -30,11 +30,11 @@ AWS support is coming soon using the same YAML-based framework.
 To begin, create a directory with a model.yaml configuration file.
 
 ### For model deployment:
-	•	Only the model.yaml file is needed
+-	Only the model.yaml file is needed
 
 ### For fine-tuning:
-	•	Include train.csv, val.csv, and test.csv
-	•	These CSVs should contain two columns: prompt, response
+-	Include train.csv, val.csv, and test.csv
+- These CSVs should contain two columns: prompt, response
 
 Then run:
 ```bash
