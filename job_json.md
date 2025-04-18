@@ -59,7 +59,7 @@ It’s your CLI’s memory of what you’re working on — don’t edit it manua
 ### model
 <dl>
 	<dt>model_id</dt> 
-  <dd>A unique label for this project or experiment.</dd>
+  <dd>The unique label for this project or experiment.</dd>
 	<dt>base_model</dt> 
   <dd>The Hugging Face model ID used as the starting point for deployment or fine-tuning.</dd>
 </dl>
