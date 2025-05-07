@@ -1,0 +1,26 @@
+{
+  "id": "supported",
+  "title": "Supported Models and Platforms",
+  "description": "",
+  "source": "@site/docs/supported.md",
+  "sourceDirName": ".",
+  "slug": "/supported",
+  "permalink": "/docs/next/supported",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Working with GCP",
+    "permalink": "/docs/next/cloud-setup/gcp"
+  },
+  "next": {
+    "title": "Configure Your Model",
+    "permalink": "/docs/next/category/configure-your-model"
+  }
+}

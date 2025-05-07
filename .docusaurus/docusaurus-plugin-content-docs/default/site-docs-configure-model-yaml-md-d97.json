@@ -1,0 +1,26 @@
+{
+  "id": "configure/model-yaml",
+  "title": "Model YAML",
+  "description": "The model.yaml file is the heart of every Constellaxion project. It defines what model you’re using, what dataset to train on (if any), and where to deploy it.",
+  "source": "@site/docs/configure/model-yaml.md",
+  "sourceDirName": "configure",
+  "slug": "/configure/model-yaml",
+  "permalink": "/docs/next/configure/model-yaml",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Configure Your Model",
+    "permalink": "/docs/next/category/configure-your-model"
+  },
+  "next": {
+    "title": "Under the hood",
+    "permalink": "/docs/next/category/under-the-hood"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "supported",
+  "title": "Supported Models and Platforms",
+  "description": "",
+  "source": "@site/versioned_docs/version-0.4.0/supported.md",
+  "sourceDirName": ".",
+  "slug": "/supported",
+  "permalink": "/docs/supported",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "0.4.0",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Working with GCP",
+    "permalink": "/docs/cloud-setup/gcp"
+  },
+  "next": {
+    "title": "Configure Your Model",
+    "permalink": "/docs/category/configure-your-model"
+  }
+}
