@@ -10,7 +10,7 @@ export default {
   "url": "https://constellaxion.ai",
   "baseUrl": "/",
   "organizationName": "constellaXion",
-  "projectName": "constellaxion-docs",
+  "projectName": "constellaxion.github.io",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
