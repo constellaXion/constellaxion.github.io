@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkconstellaxion_docs=self.webpackChunkconstellaxion_docs||[]).push([[1903],{1912:o=>{o.exports=JSON.parse('{"blogBasePath":"/constellaxion.github.io/blog","blogTitle":"Blog","authorsListPath":"/constellaxion.github.io/blog/authors"}')}}]);

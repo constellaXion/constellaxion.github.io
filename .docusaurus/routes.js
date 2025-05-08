@@ -3,41 +3,6 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/constellaxion.github.io/__docusaurus/debug',
-    component: ComponentCreator('/constellaxion.github.io/__docusaurus/debug', '2c6'),
-    exact: true
-  },
-  {
-    path: '/constellaxion.github.io/__docusaurus/debug/config',
-    component: ComponentCreator('/constellaxion.github.io/__docusaurus/debug/config', 'f6e'),
-    exact: true
-  },
-  {
-    path: '/constellaxion.github.io/__docusaurus/debug/content',
-    component: ComponentCreator('/constellaxion.github.io/__docusaurus/debug/content', 'bd1'),
-    exact: true
-  },
-  {
-    path: '/constellaxion.github.io/__docusaurus/debug/globalData',
-    component: ComponentCreator('/constellaxion.github.io/__docusaurus/debug/globalData', '2f4'),
-    exact: true
-  },
-  {
-    path: '/constellaxion.github.io/__docusaurus/debug/metadata',
-    component: ComponentCreator('/constellaxion.github.io/__docusaurus/debug/metadata', '1ee'),
-    exact: true
-  },
-  {
-    path: '/constellaxion.github.io/__docusaurus/debug/registry',
-    component: ComponentCreator('/constellaxion.github.io/__docusaurus/debug/registry', 'b03'),
-    exact: true
-  },
-  {
-    path: '/constellaxion.github.io/__docusaurus/debug/routes',
-    component: ComponentCreator('/constellaxion.github.io/__docusaurus/debug/routes', '0c4'),
-    exact: true
-  },
-  {
     path: '/constellaxion.github.io/blog',
     component: ComponentCreator('/constellaxion.github.io/blog', '7fa'),
     exact: true
