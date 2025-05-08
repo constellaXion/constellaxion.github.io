@@ -38,6 +38,7 @@ const config: Config = {
         docs: {
           sidebarPath: "./sidebars.ts",
           editUrl: `https://github.com/constellaXion/constellaxion.github.io/tree/main/`,
+          routeBasePath: "/",
         },
         blog: {
           showReadingTime: true,
