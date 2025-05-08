@@ -5,9 +5,10 @@
   "source": "@site/docs/supported.md",
   "sourceDirName": ".",
   "slug": "/supported",
-  "permalink": "/constellaxion.github.io/docs/next/supported",
+  "permalink": "/next/supported",
   "draft": false,
   "unlisted": false,
+  "editUrl": "https://github.com/constellaXion/constellaxion.github.io/tree/main/docs/supported.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 3,
@@ -17,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Working with GCP",
-    "permalink": "/constellaxion.github.io/docs/next/cloud-setup/gcp"
+    "permalink": "/next/cloud-setup/gcp"
   },
   "next": {
     "title": "Configure Your Model",
-    "permalink": "/constellaxion.github.io/docs/next/category/configure-your-model"
+    "permalink": "/next/category/configure-your-model"
   }
 }

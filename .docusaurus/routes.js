@@ -3,149 +3,189 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/constellaxion.github.io/blog',
-    component: ComponentCreator('/constellaxion.github.io/blog', '7fa'),
+    path: '/__docusaurus/debug',
+    component: ComponentCreator('/__docusaurus/debug', '5ff'),
     exact: true
   },
   {
-    path: '/constellaxion.github.io/blog/archive',
-    component: ComponentCreator('/constellaxion.github.io/blog/archive', '0ce'),
+    path: '/__docusaurus/debug/config',
+    component: ComponentCreator('/__docusaurus/debug/config', '5ba'),
     exact: true
   },
   {
-    path: '/constellaxion.github.io/blog/authors',
-    component: ComponentCreator('/constellaxion.github.io/blog/authors', '0b7'),
+    path: '/__docusaurus/debug/content',
+    component: ComponentCreator('/__docusaurus/debug/content', 'a2b'),
     exact: true
   },
   {
-    path: '/constellaxion.github.io/blog/authors/all-sebastien-lorber-articles',
-    component: ComponentCreator('/constellaxion.github.io/blog/authors/all-sebastien-lorber-articles', 'd7a'),
+    path: '/__docusaurus/debug/globalData',
+    component: ComponentCreator('/__docusaurus/debug/globalData', 'c3c'),
     exact: true
   },
   {
-    path: '/constellaxion.github.io/blog/authors/yangshun',
-    component: ComponentCreator('/constellaxion.github.io/blog/authors/yangshun', '043'),
+    path: '/__docusaurus/debug/metadata',
+    component: ComponentCreator('/__docusaurus/debug/metadata', '156'),
     exact: true
   },
   {
-    path: '/constellaxion.github.io/blog/first-blog-post',
-    component: ComponentCreator('/constellaxion.github.io/blog/first-blog-post', '8dc'),
+    path: '/__docusaurus/debug/registry',
+    component: ComponentCreator('/__docusaurus/debug/registry', '88c'),
     exact: true
   },
   {
-    path: '/constellaxion.github.io/blog/long-blog-post',
-    component: ComponentCreator('/constellaxion.github.io/blog/long-blog-post', '809'),
+    path: '/__docusaurus/debug/routes',
+    component: ComponentCreator('/__docusaurus/debug/routes', '000'),
     exact: true
   },
   {
-    path: '/constellaxion.github.io/blog/mdx-blog-post',
-    component: ComponentCreator('/constellaxion.github.io/blog/mdx-blog-post', '40b'),
+    path: '/blog',
+    component: ComponentCreator('/blog', 'b2f'),
     exact: true
   },
   {
-    path: '/constellaxion.github.io/blog/tags',
-    component: ComponentCreator('/constellaxion.github.io/blog/tags', 'be7'),
+    path: '/blog/archive',
+    component: ComponentCreator('/blog/archive', '182'),
     exact: true
   },
   {
-    path: '/constellaxion.github.io/blog/tags/docusaurus',
-    component: ComponentCreator('/constellaxion.github.io/blog/tags/docusaurus', 'd2a'),
+    path: '/blog/authors',
+    component: ComponentCreator('/blog/authors', '0b7'),
     exact: true
   },
   {
-    path: '/constellaxion.github.io/blog/tags/facebook',
-    component: ComponentCreator('/constellaxion.github.io/blog/tags/facebook', 'f0c'),
+    path: '/blog/authors/all-sebastien-lorber-articles',
+    component: ComponentCreator('/blog/authors/all-sebastien-lorber-articles', '4a1'),
     exact: true
   },
   {
-    path: '/constellaxion.github.io/blog/tags/hello',
-    component: ComponentCreator('/constellaxion.github.io/blog/tags/hello', '944'),
+    path: '/blog/authors/yangshun',
+    component: ComponentCreator('/blog/authors/yangshun', 'a68'),
     exact: true
   },
   {
-    path: '/constellaxion.github.io/blog/tags/hola',
-    component: ComponentCreator('/constellaxion.github.io/blog/tags/hola', '26e'),
+    path: '/blog/first-blog-post',
+    component: ComponentCreator('/blog/first-blog-post', '89a'),
     exact: true
   },
   {
-    path: '/constellaxion.github.io/blog/welcome',
-    component: ComponentCreator('/constellaxion.github.io/blog/welcome', '198'),
+    path: '/blog/long-blog-post',
+    component: ComponentCreator('/blog/long-blog-post', '9ad'),
     exact: true
   },
   {
-    path: '/constellaxion.github.io/markdown-page',
-    component: ComponentCreator('/constellaxion.github.io/markdown-page', '8d4'),
+    path: '/blog/mdx-blog-post',
+    component: ComponentCreator('/blog/mdx-blog-post', 'e9f'),
     exact: true
   },
   {
-    path: '/constellaxion.github.io/docs',
-    component: ComponentCreator('/constellaxion.github.io/docs', '189'),
+    path: '/blog/tags',
+    component: ComponentCreator('/blog/tags', '287'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/docusaurus',
+    component: ComponentCreator('/blog/tags/docusaurus', '704'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/facebook',
+    component: ComponentCreator('/blog/tags/facebook', '858'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/hello',
+    component: ComponentCreator('/blog/tags/hello', '299'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/hola',
+    component: ComponentCreator('/blog/tags/hola', '00d'),
+    exact: true
+  },
+  {
+    path: '/blog/welcome',
+    component: ComponentCreator('/blog/welcome', 'd2b'),
+    exact: true
+  },
+  {
+    path: '/markdown-page',
+    component: ComponentCreator('/markdown-page', '3d7'),
+    exact: true
+  },
+  {
+    path: '/',
+    component: ComponentCreator('/', 'e5f'),
+    exact: true
+  },
+  {
+    path: '/',
+    component: ComponentCreator('/', '9a1'),
     routes: [
       {
-        path: '/constellaxion.github.io/docs/next',
-        component: ComponentCreator('/constellaxion.github.io/docs/next', '89a'),
+        path: '/next',
+        component: ComponentCreator('/next', 'c8c'),
         routes: [
           {
-            path: '/constellaxion.github.io/docs/next',
-            component: ComponentCreator('/constellaxion.github.io/docs/next', 'f31'),
+            path: '/next',
+            component: ComponentCreator('/next', '731'),
             routes: [
               {
-                path: '/constellaxion.github.io/docs/next/category/cloud-setup',
-                component: ComponentCreator('/constellaxion.github.io/docs/next/category/cloud-setup', '10c'),
+                path: '/next/category/cloud-setup',
+                component: ComponentCreator('/next/category/cloud-setup', '1ef'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/constellaxion.github.io/docs/next/category/configure-your-model',
-                component: ComponentCreator('/constellaxion.github.io/docs/next/category/configure-your-model', 'a86'),
+                path: '/next/category/configure-your-model',
+                component: ComponentCreator('/next/category/configure-your-model', 'ad1'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/constellaxion.github.io/docs/next/category/under-the-hood',
-                component: ComponentCreator('/constellaxion.github.io/docs/next/category/under-the-hood', '344'),
+                path: '/next/category/under-the-hood',
+                component: ComponentCreator('/next/category/under-the-hood', '163'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/constellaxion.github.io/docs/next/cloud-setup/aws',
-                component: ComponentCreator('/constellaxion.github.io/docs/next/cloud-setup/aws', 'e10'),
+                path: '/next/cloud-setup/aws',
+                component: ComponentCreator('/next/cloud-setup/aws', '1df'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/constellaxion.github.io/docs/next/cloud-setup/gcp',
-                component: ComponentCreator('/constellaxion.github.io/docs/next/cloud-setup/gcp', 'aa4'),
+                path: '/next/cloud-setup/gcp',
+                component: ComponentCreator('/next/cloud-setup/gcp', '5d6'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/constellaxion.github.io/docs/next/configure/model-yaml',
-                component: ComponentCreator('/constellaxion.github.io/docs/next/configure/model-yaml', 'c63'),
+                path: '/next/configure/model-yaml',
+                component: ComponentCreator('/next/configure/model-yaml', '507'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/constellaxion.github.io/docs/next/configure/under-the-hood/job-json',
-                component: ComponentCreator('/constellaxion.github.io/docs/next/configure/under-the-hood/job-json', '9c7'),
+                path: '/next/configure/under-the-hood/job-json',
+                component: ComponentCreator('/next/configure/under-the-hood/job-json', '0eb'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/constellaxion.github.io/docs/next/getting-started',
-                component: ComponentCreator('/constellaxion.github.io/docs/next/getting-started', 'f5e'),
+                path: '/next/getting-started',
+                component: ComponentCreator('/next/getting-started', '959'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/constellaxion.github.io/docs/next/supported',
-                component: ComponentCreator('/constellaxion.github.io/docs/next/supported', '3fa'),
+                path: '/next/supported',
+                component: ComponentCreator('/next/supported', '6eb'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/constellaxion.github.io/docs/next/welcome',
-                component: ComponentCreator('/constellaxion.github.io/docs/next/welcome', 'b43'),
+                path: '/next/welcome',
+                component: ComponentCreator('/next/welcome', '684'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
@@ -154,70 +194,70 @@ export default [
         ]
       },
       {
-        path: '/constellaxion.github.io/docs',
-        component: ComponentCreator('/constellaxion.github.io/docs', 'a96'),
+        path: '/',
+        component: ComponentCreator('/', 'aaf'),
         routes: [
           {
-            path: '/constellaxion.github.io/docs',
-            component: ComponentCreator('/constellaxion.github.io/docs', 'a46'),
+            path: '/',
+            component: ComponentCreator('/', '85a'),
             routes: [
               {
-                path: '/constellaxion.github.io/docs/category/cloud-setup',
-                component: ComponentCreator('/constellaxion.github.io/docs/category/cloud-setup', '5de'),
+                path: '/category/cloud-setup',
+                component: ComponentCreator('/category/cloud-setup', '602'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/constellaxion.github.io/docs/category/configure-your-model',
-                component: ComponentCreator('/constellaxion.github.io/docs/category/configure-your-model', 'b5e'),
+                path: '/category/configure-your-model',
+                component: ComponentCreator('/category/configure-your-model', '0b5'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/constellaxion.github.io/docs/category/under-the-hood',
-                component: ComponentCreator('/constellaxion.github.io/docs/category/under-the-hood', '68f'),
+                path: '/category/under-the-hood',
+                component: ComponentCreator('/category/under-the-hood', '878'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/constellaxion.github.io/docs/cloud-setup/aws',
-                component: ComponentCreator('/constellaxion.github.io/docs/cloud-setup/aws', 'c9b'),
+                path: '/cloud-setup/aws',
+                component: ComponentCreator('/cloud-setup/aws', 'f48'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/constellaxion.github.io/docs/cloud-setup/gcp',
-                component: ComponentCreator('/constellaxion.github.io/docs/cloud-setup/gcp', '782'),
+                path: '/cloud-setup/gcp',
+                component: ComponentCreator('/cloud-setup/gcp', '285'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/constellaxion.github.io/docs/configure/model-yaml',
-                component: ComponentCreator('/constellaxion.github.io/docs/configure/model-yaml', '55f'),
+                path: '/configure/model-yaml',
+                component: ComponentCreator('/configure/model-yaml', 'fa9'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/constellaxion.github.io/docs/configure/under-the-hood/job-json',
-                component: ComponentCreator('/constellaxion.github.io/docs/configure/under-the-hood/job-json', 'ab7'),
+                path: '/configure/under-the-hood/job-json',
+                component: ComponentCreator('/configure/under-the-hood/job-json', '7e5'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/constellaxion.github.io/docs/getting-started',
-                component: ComponentCreator('/constellaxion.github.io/docs/getting-started', '3f1'),
+                path: '/getting-started',
+                component: ComponentCreator('/getting-started', 'c22'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/constellaxion.github.io/docs/supported',
-                component: ComponentCreator('/constellaxion.github.io/docs/supported', 'b5b'),
+                path: '/supported',
+                component: ComponentCreator('/supported', '876'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/constellaxion.github.io/docs/welcome',
-                component: ComponentCreator('/constellaxion.github.io/docs/welcome', '4c1'),
+                path: '/welcome',
+                component: ComponentCreator('/welcome', 'e40'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
@@ -226,11 +266,6 @@ export default [
         ]
       }
     ]
-  },
-  {
-    path: '/constellaxion.github.io/',
-    component: ComponentCreator('/constellaxion.github.io/', '0d5'),
-    exact: true
   },
   {
     path: '*',

@@ -8,7 +8,7 @@ export default {
   "tagline": "Build, Deploy, and Serve LLMs to your private cloud with Ease",
   "favicon": "img/favicon.ico",
   "url": "https://constellaxion.ai",
-  "baseUrl": "/constellaxion.github.io/",
+  "baseUrl": "/",
   "organizationName": "constellaXion",
   "projectName": "constellaxion.github.io",
   "onBrokenLinks": "throw",
@@ -26,7 +26,9 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "./sidebars.ts"
+          "sidebarPath": "./sidebars.ts",
+          "editUrl": "https://github.com/constellaXion/constellaxion.github.io/tree/main/",
+          "routeBasePath": "/"
         },
         "blog": {
           "showReadingTime": true,
@@ -37,6 +39,7 @@ export default {
             ],
             "xslt": true
           },
+          "editUrl": "https://github.com/constellaXion/constellaxion.github.io/tree/main/",
           "onInlineTags": "warn",
           "onInlineAuthors": "warn",
           "onUntruncatedBlogPosts": "warn"

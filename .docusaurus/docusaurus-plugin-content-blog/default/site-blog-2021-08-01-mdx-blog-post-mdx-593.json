@@ -1,5 +1,6 @@
 {
-  "permalink": "/constellaxion.github.io/blog/mdx-blog-post",
+  "permalink": "/blog/mdx-blog-post",
+  "editUrl": "https://github.com/constellaXion/constellaxion.github.io/tree/main/blog/2021-08-01-mdx-blog-post.mdx",
   "source": "@site/blog/2021-08-01-mdx-blog-post.mdx",
   "title": "MDX Blog Post",
   "description": "Blog posts support Docusaurus Markdown features, such as MDX.",
@@ -8,7 +9,7 @@
     {
       "inline": false,
       "label": "Docusaurus",
-      "permalink": "/constellaxion.github.io/blog/tags/docusaurus",
+      "permalink": "/blog/tags/docusaurus",
       "description": "Docusaurus tag description"
     }
   ],
@@ -20,7 +21,7 @@
       "title": "Docusaurus maintainer",
       "url": "https://sebastienlorber.com",
       "page": {
-        "permalink": "/constellaxion.github.io/blog/authors/all-sebastien-lorber-articles"
+        "permalink": "/blog/authors/all-sebastien-lorber-articles"
       },
       "socials": {
         "x": "https://x.com/sebastienlorber",
@@ -45,10 +46,10 @@
   "unlisted": false,
   "prevItem": {
     "title": "Welcome",
-    "permalink": "/constellaxion.github.io/blog/welcome"
+    "permalink": "/blog/welcome"
   },
   "nextItem": {
     "title": "Long Blog Post",
-    "permalink": "/constellaxion.github.io/blog/long-blog-post"
+    "permalink": "/blog/long-blog-post"
   }
 }
