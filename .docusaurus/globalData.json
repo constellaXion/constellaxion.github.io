@@ -1,63 +1,63 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/docs",
+      "path": "/constellaxion.github.io/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": false,
-          "path": "/docs/next",
+          "path": "/constellaxion.github.io/docs/next",
           "mainDocId": "welcome",
           "docs": [
             {
               "id": "cloud-setup/aws",
-              "path": "/docs/next/cloud-setup/aws",
+              "path": "/constellaxion.github.io/docs/next/cloud-setup/aws",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "cloud-setup/gcp",
-              "path": "/docs/next/cloud-setup/gcp",
+              "path": "/constellaxion.github.io/docs/next/cloud-setup/gcp",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "configure/model-yaml",
-              "path": "/docs/next/configure/model-yaml",
+              "path": "/constellaxion.github.io/docs/next/configure/model-yaml",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "configure/under-the-hood/job-json",
-              "path": "/docs/next/configure/under-the-hood/job-json",
+              "path": "/constellaxion.github.io/docs/next/configure/under-the-hood/job-json",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "getting-started",
-              "path": "/docs/next/getting-started",
+              "path": "/constellaxion.github.io/docs/next/getting-started",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "supported",
-              "path": "/docs/next/supported",
+              "path": "/constellaxion.github.io/docs/next/supported",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "welcome",
-              "path": "/docs/next/welcome",
+              "path": "/constellaxion.github.io/docs/next/welcome",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/cloud-setup",
-              "path": "/docs/next/category/cloud-setup",
+              "path": "/constellaxion.github.io/docs/next/category/cloud-setup",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/configure-your-model",
-              "path": "/docs/next/category/configure-your-model",
+              "path": "/constellaxion.github.io/docs/next/category/configure-your-model",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/under-the-hood",
-              "path": "/docs/next/category/under-the-hood",
+              "path": "/constellaxion.github.io/docs/next/category/under-the-hood",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -65,7 +65,7 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/next/welcome",
+                "path": "/constellaxion.github.io/docs/next/welcome",
                 "label": "welcome"
               }
             }
@@ -75,57 +75,57 @@
           "name": "0.4.0",
           "label": "0.4.0",
           "isLast": true,
-          "path": "/docs",
+          "path": "/constellaxion.github.io/docs",
           "mainDocId": "welcome",
           "docs": [
             {
               "id": "cloud-setup/aws",
-              "path": "/docs/cloud-setup/aws",
+              "path": "/constellaxion.github.io/docs/cloud-setup/aws",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "cloud-setup/gcp",
-              "path": "/docs/cloud-setup/gcp",
+              "path": "/constellaxion.github.io/docs/cloud-setup/gcp",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "configure/model-yaml",
-              "path": "/docs/configure/model-yaml",
+              "path": "/constellaxion.github.io/docs/configure/model-yaml",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "configure/under-the-hood/job-json",
-              "path": "/docs/configure/under-the-hood/job-json",
+              "path": "/constellaxion.github.io/docs/configure/under-the-hood/job-json",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "getting-started",
-              "path": "/docs/getting-started",
+              "path": "/constellaxion.github.io/docs/getting-started",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "supported",
-              "path": "/docs/supported",
+              "path": "/constellaxion.github.io/docs/supported",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "welcome",
-              "path": "/docs/welcome",
+              "path": "/constellaxion.github.io/docs/welcome",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/cloud-setup",
-              "path": "/docs/category/cloud-setup",
+              "path": "/constellaxion.github.io/docs/category/cloud-setup",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/configure-your-model",
-              "path": "/docs/category/configure-your-model",
+              "path": "/constellaxion.github.io/docs/category/configure-your-model",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/under-the-hood",
-              "path": "/docs/category/under-the-hood",
+              "path": "/constellaxion.github.io/docs/category/under-the-hood",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -133,7 +133,7 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/welcome",
+                "path": "/constellaxion.github.io/docs/welcome",
                 "label": "welcome"
               }
             }

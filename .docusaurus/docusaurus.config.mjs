@@ -8,7 +8,7 @@ export default {
   "tagline": "Build, Deploy, and Serve LLMs to your private cloud with Ease",
   "favicon": "img/favicon.ico",
   "url": "https://constellaxion.ai",
-  "baseUrl": "/",
+  "baseUrl": "/constellaxion.github.io/",
   "organizationName": "constellaXion",
   "projectName": "constellaxion.github.io",
   "onBrokenLinks": "throw",

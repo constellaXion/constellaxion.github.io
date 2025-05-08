@@ -5,7 +5,7 @@
   "source": "@site/docs/configure/model-yaml.md",
   "sourceDirName": "configure",
   "slug": "/configure/model-yaml",
-  "permalink": "/docs/next/configure/model-yaml",
+  "permalink": "/constellaxion.github.io/docs/next/configure/model-yaml",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Configure Your Model",
-    "permalink": "/docs/next/category/configure-your-model"
+    "permalink": "/constellaxion.github.io/docs/next/category/configure-your-model"
   },
   "next": {
     "title": "Under the hood",
-    "permalink": "/docs/next/category/under-the-hood"
+    "permalink": "/constellaxion.github.io/docs/next/category/under-the-hood"
   }
 }

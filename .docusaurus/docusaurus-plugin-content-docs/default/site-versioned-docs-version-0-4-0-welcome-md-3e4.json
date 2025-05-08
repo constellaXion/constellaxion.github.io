@@ -5,7 +5,7 @@
   "source": "@site/versioned_docs/version-0.4.0/welcome.md",
   "sourceDirName": ".",
   "slug": "/welcome",
-  "permalink": "/docs/welcome",
+  "permalink": "/constellaxion.github.io/docs/welcome",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -17,6 +17,6 @@
   "sidebar": "tutorialSidebar",
   "next": {
     "title": "Getting Started",
-    "permalink": "/docs/getting-started"
+    "permalink": "/constellaxion.github.io/docs/getting-started"
   }
 }
