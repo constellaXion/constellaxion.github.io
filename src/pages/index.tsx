@@ -33,7 +33,7 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Build, Deploy, and Serve LLMs to your private cloud with Ease"
+      description="Build, Deploy, and Serve LLMs to your private cloud with Ease."
     >
       <HomepageHeader />
       <main>
