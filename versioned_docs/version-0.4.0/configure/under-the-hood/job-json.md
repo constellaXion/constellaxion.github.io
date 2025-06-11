@@ -48,7 +48,7 @@ Constellaxion generates a `job.json` file that captures the complete state of yo
     "deploy": {
         "provider": "gcp",
         "project_id": "<your-project-id>",
-        "location": "<your-region>",
+        "region": "<your-region>",
         "bucket_name": "<your-bucket-name>",
         "staging_dir": "my-sentiment-llm/staging",
         "experiments_dir": "my-sentiment-llm/experiments",
@@ -97,7 +97,7 @@ This section configures your cloud deployment.
 
 - **provider** *string* - The cloud backend used. Currently supports gcp. (Multi-cloud support coming soon.)
 - **project_id** *string* - Your GCP project identifier.
-- **location** *string* - GCP region where jobs run.
+- **region** *string* - GCP region where jobs run.
 - **bucket_name** *string* - Your GCS bucket for model artifacts, datasets, logs.
 - **staging_dir** *string* - Temp directory where data is uploaded before processing.
 - **experiments_dir** *string* - Where logs, checkpoints, and metrics are saved during training.

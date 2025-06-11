@@ -98,7 +98,7 @@ Constellaxion supports all regions where Vertex AI is available. You configure t
 deploy:
   gcp:
     project_id: my-project
-    location: us-central1
+    region: us-central1
 ```
 
 [👉 Available Vertex AI regions](https://cloud.google.com/vertex-ai/docs/general/locations)

@@ -65,7 +65,7 @@ model:
 deploy:
   gcp:
     project_id: your-project-id
-    location: europe-west2
+    region: europe-west2
 ```
 [What happens under the hood →](configure/under-the-hood/job-json.md)
 
@@ -97,7 +97,7 @@ training:
 deploy:
   gcp:
     project_id: your-project-id
-    location: us-central1
+    region: us-central1
 ```
 
 
