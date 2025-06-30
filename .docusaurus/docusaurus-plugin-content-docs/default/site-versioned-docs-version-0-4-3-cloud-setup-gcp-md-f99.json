@@ -2,15 +2,15 @@
   "id": "cloud-setup/gcp",
   "title": "Working with GCP",
   "description": "Constellaxion integrates seamlessly with Google Cloud Platform (GCP) to deploy and fine-tune open-source models via Vertex AI and Cloud Storage.",
-  "source": "@site/versioned_docs/version-0.4.0/cloud-setup/gcp.md",
+  "source": "@site/versioned_docs/version-0.4.3/cloud-setup/gcp.md",
   "sourceDirName": "cloud-setup",
   "slug": "/cloud-setup/gcp",
-  "permalink": "/0.4.0/cloud-setup/gcp",
+  "permalink": "/cloud-setup/gcp",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/constellaXion/constellaxion.github.io/tree/main/versioned_docs/version-0.4.0/cloud-setup/gcp.md",
+  "editUrl": "https://github.com/constellaXion/constellaxion.github.io/tree/main/versioned_docs/version-0.4.3/cloud-setup/gcp.md",
   "tags": [],
-  "version": "0.4.0",
+  "version": "0.4.3",
   "sidebarPosition": 2,
   "frontMatter": {
     "sidebar_position": 2
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Working with AWS",
-    "permalink": "/0.4.0/cloud-setup/aws"
+    "permalink": "/cloud-setup/aws"
   },
   "next": {
     "title": "Supported Models and Platforms",
-    "permalink": "/0.4.0/supported"
+    "permalink": "/supported"
   }
 }

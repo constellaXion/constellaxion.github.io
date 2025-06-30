@@ -2,15 +2,15 @@
   "id": "cloud-setup/aws",
   "title": "Working with AWS",
   "description": "Constellaxion supports deploying and fine-tuning open-source models on AWS using services like SageMaker, ECR, and S3.",
-  "source": "@site/versioned_docs/version-0.4.0/cloud-setup/aws.md",
+  "source": "@site/versioned_docs/version-0.4.3/cloud-setup/aws.md",
   "sourceDirName": "cloud-setup",
   "slug": "/cloud-setup/aws",
-  "permalink": "/0.4.0/cloud-setup/aws",
+  "permalink": "/cloud-setup/aws",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/constellaXion/constellaxion.github.io/tree/main/versioned_docs/version-0.4.0/cloud-setup/aws.md",
+  "editUrl": "https://github.com/constellaXion/constellaxion.github.io/tree/main/versioned_docs/version-0.4.3/cloud-setup/aws.md",
   "tags": [],
-  "version": "0.4.0",
+  "version": "0.4.3",
   "sidebarPosition": 1,
   "frontMatter": {
     "sidebar_position": 1
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Cloud Setup",
-    "permalink": "/0.4.0/category/cloud-setup"
+    "permalink": "/category/cloud-setup"
   },
   "next": {
     "title": "Working with GCP",
-    "permalink": "/0.4.0/cloud-setup/gcp"
+    "permalink": "/cloud-setup/gcp"
   }
 }

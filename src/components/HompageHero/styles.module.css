@@ -1,0 +1,101 @@
+.quickLinks {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.quickLinkCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border-radius: 0.5rem; */
+  /* background-color: #e8f0fb; */
+  /* background: linear-gradient(to right, #e4f1ff, #fffbee); */
+  background: #dfefff;  /* fallback for old browsers */
+/* background: -webkit-linear-gradient(to right, #536976, #BBD2C5);  Chrome 10-25, Safari 5.1-6 */
+
+  border: none;
+  /* border: 1px solid #191919; */
+  margin: 0 1rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.quickLinkCard:hover {
+  background: linear-gradient(to right, #e4f1ff, #fffbee);
+}
+
+.quickLink {
+  text-decoration: none;
+}
+
+.quickLink:hover {
+  /* transform: scale(1.05); */
+  text-decoration: none;
+}
+
+.quickLinkContent {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+  text-decoration: none;
+  color: #000000;
+}
+
+.quickLinkDescription {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #444343;
+  margin-top: 0.5rem;
+  text-decoration: none;
+}
+
+.quickLinkTab {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #303846; */
+}
+
+.heroTitle {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.heroContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}

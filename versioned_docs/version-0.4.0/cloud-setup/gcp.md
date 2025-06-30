@@ -86,7 +86,7 @@ It will be granted the following roles:
 <Table />
 
 :::info[Security Note] 
-This service account approach is not ideal for production deployments. We're working on a more secure solution. If you have any urgent needs, please reach out to us at [support@constellaxion.com](mailto:support@constellaxion.com).
+This service account approach is not ideal for production deployments. We're working on a more secure solution. If you have any urgent needs, please reach out to us at [support@constellaxion.ai](mailto:support@constellaxion.ai).
 :::
 ---
 

@@ -53,18 +53,12 @@ export default {
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
-      "title": "Constellaxion CLI",
+      "title": "",
       "logo": {
-        "alt": "Constellaxion CLI Logo",
-        "src": "img/icon_light_bg.svg"
+        "alt": "",
+        "src": "img/icon.svg"
       },
       "items": [
-        {
-          "type": "docSidebar",
-          "sidebarId": "tutorialSidebar",
-          "position": "left",
-          "label": "Docs"
-        },
         {
           "href": "https://github.com/constellaXion/constellaXion-cli",
           "label": "GitHub",
@@ -308,7 +302,7 @@ export default {
     },
     "colorMode": {
       "defaultMode": "light",
-      "disableSwitch": false,
+      "disableSwitch": true,
       "respectPrefersColorScheme": false
     },
     "docs": {

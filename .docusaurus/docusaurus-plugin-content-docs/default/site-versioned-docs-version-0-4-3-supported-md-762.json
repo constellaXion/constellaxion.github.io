@@ -2,15 +2,15 @@
   "id": "supported",
   "title": "Supported Models and Platforms",
   "description": "",
-  "source": "@site/versioned_docs/version-0.4.0/supported.md",
+  "source": "@site/versioned_docs/version-0.4.3/supported.md",
   "sourceDirName": ".",
   "slug": "/supported",
-  "permalink": "/0.4.0/supported",
+  "permalink": "/supported",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/constellaXion/constellaxion.github.io/tree/main/versioned_docs/version-0.4.0/supported.md",
+  "editUrl": "https://github.com/constellaXion/constellaxion.github.io/tree/main/versioned_docs/version-0.4.3/supported.md",
   "tags": [],
-  "version": "0.4.0",
+  "version": "0.4.3",
   "sidebarPosition": 3,
   "frontMatter": {
     "sidebar_position": 3
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Working with GCP",
-    "permalink": "/0.4.0/cloud-setup/gcp"
+    "permalink": "/cloud-setup/gcp"
   },
   "next": {
     "title": "Configure Your Model",
-    "permalink": "/0.4.0/category/configure-your-model"
+    "permalink": "/category/configure-your-model"
   }
 }

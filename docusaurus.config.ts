@@ -63,18 +63,18 @@ const config: Config = {
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
     navbar: {
-      title: "Constellaxion CLI",
+      title: "",
       logo: {
-        alt: "Constellaxion CLI Logo",
-        src: "img/icon_light_bg.svg",
+        alt: "",
+        src: "img/icon.svg",
       },
       items: [
-        {
-          type: "docSidebar",
-          sidebarId: "tutorialSidebar",
-          position: "left",
-          label: "Docs",
-        },
+        // {
+        //   type: "docSidebar",
+        //   sidebarId: "tutorialSidebar",
+        //   position: "left",
+        //   label: "Docs",
+        // },
         // { to: "/blog", label: "Blog", position: "left" },
         {
           href: "https://github.com/constellaXion/constellaXion-cli",
@@ -120,6 +120,11 @@ const config: Config = {
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+    },
+    colorMode: {
+      defaultMode: "light",
+      disableSwitch: true,
+      respectPrefersColorScheme: false,
     },
     // algolia: {
     //   // The application ID provided by Algolia

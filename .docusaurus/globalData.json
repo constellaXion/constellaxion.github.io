@@ -72,8 +72,8 @@
           }
         },
         {
-          "name": "0.4.0",
-          "label": "0.4.0",
+          "name": "0.4.3",
+          "label": "0.4.3",
           "isLast": true,
           "path": "/",
           "mainDocId": "welcome",
@@ -134,6 +134,74 @@
             "tutorialSidebar": {
               "link": {
                 "path": "/welcome",
+                "label": "welcome"
+              }
+            }
+          }
+        },
+        {
+          "name": "0.4.0",
+          "label": "0.4.0",
+          "isLast": false,
+          "path": "/0.4.0",
+          "mainDocId": "welcome",
+          "docs": [
+            {
+              "id": "cloud-setup/aws",
+              "path": "/0.4.0/cloud-setup/aws",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "cloud-setup/gcp",
+              "path": "/0.4.0/cloud-setup/gcp",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "configure/model-yaml",
+              "path": "/0.4.0/configure/model-yaml",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "configure/under-the-hood/job-json",
+              "path": "/0.4.0/configure/under-the-hood/job-json",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started",
+              "path": "/0.4.0/getting-started",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "supported",
+              "path": "/0.4.0/supported",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "welcome",
+              "path": "/0.4.0/welcome",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/cloud-setup",
+              "path": "/0.4.0/category/cloud-setup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/configure-your-model",
+              "path": "/0.4.0/category/configure-your-model",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/under-the-hood",
+              "path": "/0.4.0/category/under-the-hood",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/0.4.0/welcome",
                 "label": "welcome"
               }
             }

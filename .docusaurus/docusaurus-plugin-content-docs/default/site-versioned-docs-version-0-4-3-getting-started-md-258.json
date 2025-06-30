@@ -2,15 +2,15 @@
   "id": "getting-started",
   "title": "Getting Started",
   "description": "Constellaxion is a CLI tool for deploying and fine-tuning open-source models on your private cloud. Whether you’re working with foundation models or fine-tuning with your own dataset, Constellaxion helps you go from config to cloud jobs in just a few commands.",
-  "source": "@site/versioned_docs/version-0.4.0/getting-started.md",
+  "source": "@site/versioned_docs/version-0.4.3/getting-started.md",
   "sourceDirName": ".",
   "slug": "/getting-started",
-  "permalink": "/0.4.0/getting-started",
+  "permalink": "/getting-started",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/constellaXion/constellaxion.github.io/tree/main/versioned_docs/version-0.4.0/getting-started.md",
+  "editUrl": "https://github.com/constellaXion/constellaxion.github.io/tree/main/versioned_docs/version-0.4.3/getting-started.md",
   "tags": [],
-  "version": "0.4.0",
+  "version": "0.4.3",
   "sidebarPosition": 2,
   "frontMatter": {
     "sidebar_position": 2
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Welcome to Constellaxion",
-    "permalink": "/0.4.0/welcome"
+    "permalink": "/welcome"
   },
   "next": {
     "title": "Cloud Setup",
-    "permalink": "/0.4.0/category/cloud-setup"
+    "permalink": "/category/cloud-setup"
   }
 }
